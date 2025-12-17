@@ -1,9 +1,19 @@
 .item {
-  width: 350px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .item p {
   margin: 6px 0px;
 }
+
 .item-prices {
   display: flex;
   gap: 30px;
